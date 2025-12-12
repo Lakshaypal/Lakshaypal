@@ -109,10 +109,3 @@ Currently, I am deep-diving into **Robotic Manipulation**, specifically working 
 *   **Co-Head, PR Team:** Cultural Council DTU
     *   *Leading operations for Engifest, Delhi’s 2nd largest cultural festival.*
 
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lakshaypal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Lakshay's Stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lakshaypal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" alt="Top Languages" />
-</div>
