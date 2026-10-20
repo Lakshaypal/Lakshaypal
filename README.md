@@ -22,29 +22,29 @@ Alongside my coursework, I've started supervised research at DTU and am strength
 
 ## Selected projects
 
-### [Audio-Visual Approximation of Video Semantic Space](https://github.com/Lakshaypal/Audio-Visual-Approximation-of-Video-Semantic-Space)
+### [Audio-Visual Approximation of Video Semantic Space](https://github.com/Lakshaypal/audio-visual-embedding-distillation)
 
 Studied how a single frame and its audio can approximate a full-video representation using frozen CLIP/AST encoders and an S3D teacher. Compared regression, contrastive alignment and cross-modal distillation.
 
 - **Reported result:** 42.2% Recall@1 on a 32-class Kinetics-Sounds subset, using a 3.02M-parameter trainable head.
-- Includes training code, checkpoints, evaluation scripts and a [technical report](https://github.com/Lakshaypal/Audio-Visual-Approximation-of-Video-Semantic-Space/blob/main/Technical%20Report.pdf).
+- Includes training code, checkpoints, evaluation scripts and a [technical report](https://github.com/Lakshaypal/audio-visual-embedding-distillation/blob/main/Technical%20Report.pdf).
 - Results are specific to the reported dataset and retrieval setup; the ImageBind reference uses a different retrieval task. Head parameter counts exclude the frozen encoders.
 
 **PyTorch · Multimodal learning · Knowledge distillation · Retrieval**
 
-### [Scene Localization with Natural Language](https://github.com/Lakshaypal/Scene_Localization)
+### [Scene Localization with Natural Language](https://github.com/Lakshaypal/language-guided-scene-localization)
 
 A text-guided image localization and segmentation prototype combining GroundingDINO, CLIP and SAM. Includes negative-prompt filtering, candidate ranking, confidence checks and a Gradio interface.
 
 **Computer vision · Language grounding · Segmentation · Gradio**
 
-### [Self-Supervised Learning Suite](https://github.com/Lakshaypal/Self-Supervised_Learning_Suite)
+### [Self-Supervised Learning Suite](https://github.com/Lakshaypal/self-supervised-visual-representations)
 
 Implementations of SimCLR, MAE and MoCo v2, with short pretraining runs on ImageNet-100 and linear-probe evaluation. An implementation study focused on understanding representation-learning methods under limited compute.
 
 **PyTorch · Contrastive learning · Masked image modelling · Representation learning**
 
-### [Project Kisan](https://github.com/Lakshaypal/Project-Kishan)
+### [Project Kisan](https://github.com/Lakshaypal/project-kisan)
 
 A team-built agricultural assistant combining crop-image diagnosis, multilingual assistance, weather information and market tools, with web and Android interfaces.
 
