@@ -11,7 +11,7 @@
 
 I'm an **Electrical Engineering undergraduate at Delhi Technological University, Class of 2028**, specialising in **Machine Learning for IoT Systems**.
 
-I want to work on the decision-making side of robotics: how a system turns sensor observations and language into useful actions. My current projects study multimodal representations, visual grounding and self-supervised learning. I'm building towards **reinforcement learning for navigation and path planning**, and **vision-language-action models**.
+I want to work on the decision-making side of robotics: how a system turns sensor observations and language into useful actions. My current projects cover 3D reconstruction and traversability analysis, multimodal representations, visual grounding and self-supervised learning. I'm building towards **reinforcement learning for navigation and path planning**, and **vision-language-action models**.
 
 ## Research interests
 
@@ -21,9 +21,24 @@ I want to work on the decision-making side of robotics: how a system turns senso
 
 The robotics topics above are my research direction. The repositories below document the experiments and systems I have built so far.
 
+## Internship
+
+**5G DoT Lab · Summer internship**  
+Worked on video-based scene reconstruction, mesh processing and geometric traversability analysis, with procedural runner and Unity/MQTT simulation components. The resulting project connects my electrical-engineering background with spatial perception and navigation.
+
 ## Selected work
 
-### 01 / Audio-Visual Semantic Distillation
+### 01 / Spatial Twin Reconstruction
+
+**From video observations to geometry, clearance maps and candidate routes.**
+
+My summer internship project at the **5G DoT Lab** brings together COLMAP/LingBot-Map camera estimation, adapted MeshSplatting sources, mesh processing and walkability analysis. Saved artifacts include reconstruction renders, distance-transform clearance maps and a procedural runner overlay; Unity scripts add NavMesh agents and simulated MQTT telemetry.
+
+Distances remain in model units until calibrated. The runner is procedural and the routes use geometric heuristics; this project provides a foundation for the robot-learning work I want to pursue next.
+
+[Source & workflow](https://github.com/Lakshaypal/Spatial-Twin-Reconstruction) · [Simulation artifacts](https://github.com/Lakshaypal/Spatial-Twin-Reconstruction/tree/main/assets) · [Recorded experiments](https://github.com/Lakshaypal/Spatial-Twin-Reconstruction/blob/main/docs/RESULTS.md)
+
+### 02 / Audio-Visual Semantic Distillation
 
 **Can one frame and its audio approximate a full-video representation?**
 
@@ -33,7 +48,7 @@ Frozen CLIP and AST encoders feed a trainable head supervised by an S3D video te
 
 [Code & results](https://github.com/Lakshaypal/Audio-Visual-Semantic-Distillation) · [Technical report](https://github.com/Lakshaypal/Audio-Visual-Semantic-Distillation/blob/main/Technical%20Report.pdf) · [Evaluation](https://github.com/Lakshaypal/Audio-Visual-Semantic-Distillation/tree/main/eval) · [Training logs](https://github.com/Lakshaypal/Audio-Visual-Semantic-Distillation/tree/main/results)
 
-### 02 / Language-Guided Scene Localization
+### 03 / Language-Guided Scene Localization
 
 **Find image regions from a natural-language description.**
 
@@ -41,7 +56,7 @@ GroundingDINO proposes candidates, CLIP ranks them against positive and negative
 
 [Code & setup](https://github.com/Lakshaypal/Language-Guided-Scene-Localization) · [Sample output](https://github.com/Lakshaypal/Language-Guided-Scene-Localization/blob/main/images/market_annotated.jpg)
 
-### 03 / Self-Supervised Representation Learning
+### 04 / Self-Supervised Representation Learning
 
 **Study what different pretraining objectives teach a visual encoder.**
 
@@ -49,7 +64,7 @@ PyTorch implementations of SimCLR, MoCo v2 and MAE, followed by frozen-backbone 
 
 [Implementations](https://github.com/Lakshaypal/Self-Supervised-Representation-Learning) · [Project report](https://github.com/Lakshaypal/Self-Supervised-Representation-Learning/blob/main/Lakshay_Pal_SSL_Report.pdf) · [Training & probe curves](https://github.com/Lakshaypal/Self-Supervised-Representation-Learning/tree/main/plots)
 
-### 04 / EcoNode
+### 05 / EcoNode
 
 **Low-power field sensing, telemetry and control.**
 
@@ -60,6 +75,16 @@ An ESP32-S3 smart-farm node project with MOSFET power gating and LoRa telemetry.
 ## Experiment artifacts
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Lakshaypal/Spatial-Twin-Reconstruction/blob/main/assets/05_longest_route.png"><img src="https://raw.githubusercontent.com/Lakshaypal/Spatial-Twin-Reconstruction/main/assets/05_longest_route.png" width="100%" alt="Candidate route on the reconstructed walkable region, in model coordinates" /></a>
+      <br /><b>Geometry to navigation</b><br />A candidate route extracted from a traversable region during my 5G DoT Lab internship. Coordinates are unscaled model units.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Lakshaypal/Spatial-Twin-Reconstruction/blob/main/assets/synthetic_runner_test.png"><img src="https://raw.githubusercontent.com/Lakshaypal/Spatial-Twin-Reconstruction/main/assets/synthetic_runner_test.png" width="100%" alt="Synthetic runner footprint with a clearance envelope" /></a>
+      <br /><b>Simulation geometry</b><br />Procedural runner footprint and clearance envelope on the reconstructed scene.
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Lakshaypal/Audio-Visual-Semantic-Distillation/blob/main/results/umap_real.png"><img src="https://raw.githubusercontent.com/Lakshaypal/Audio-Visual-Semantic-Distillation/main/results/umap_real.png" alt="UMAP projection of image, audio, distilled and teacher embeddings" width="100%" /></a>
@@ -79,6 +104,7 @@ An ESP32-S3 smart-farm node project with MOSFET power gating and LoRa telemetry.
 <img src="assets/technical-stack.svg" width="100%" alt="Python, PyTorch, OpenCV, C++, React, Flutter, Dart and Git" />
 
 **Models & methods:** CLIP · AST · S3D · GroundingDINO · SAM · SimCLR · MoCo · MAE  
+**Spatial computing:** COLMAP · Open3D · MeshSplatting · Unity · MQTT  
 **Systems:** ESP32-S3 · LoRa · WebSockets · Firebase · Google Cloud · Kotlin
 
 ## Other software
