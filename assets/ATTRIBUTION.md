@@ -1,0 +1,1 @@
+Technology logos: [Simple Icons](https://github.com/simple-icons/simple-icons), supplied under CC0. Product names and marks belong to their respective owners. The header and layout were created for this profile.

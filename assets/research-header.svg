@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Lakshay Pal</title><desc id="desc">Electrical Engineering at DTU. Research interests in perception, representation and action.</desc>
+<rect width="1200" height="300" rx="16" fill="#101f30"/>
+<path d="M52 48H112" stroke="#d3b579" stroke-width="4"/>
+<text x="52" y="87" font-family="Arial,sans-serif" font-size="17" letter-spacing="2.4" fill="#b7c6d3">ELECTRICAL ENGINEERING · DTU ’28</text>
+<text x="49" y="151" font-family="Arial,sans-serif" font-size="57" font-weight="700" letter-spacing="1" fill="#f4f2ec">Lakshay Pal</text>
+<text x="52" y="197" font-family="Arial,sans-serif" font-size="23" fill="#d3b579">Robot learning. Multimodal perception.</text>
+<text x="52" y="245" font-family="Arial,sans-serif" font-size="17" fill="#a8bbcd">ML for IoT Systems / Delhi Technological University</text>
+<g fill="none" stroke="#46657e" stroke-width="1.5"><circle cx="982" cy="143" r="79"/><circle cx="982" cy="143" r="54"/><path d="M879 214L942 102L1028 174L1100 71"/><path d="M903 143H1061M982 64V222" stroke-dasharray="3 6"/></g>
+<g fill="#d3b579" stroke="#101f30" stroke-width="4"><circle cx="879" cy="214" r="8"/><circle cx="942" cy="102" r="8"/><circle cx="1028" cy="174" r="8"/><circle cx="1100" cy="71" r="8"/></g>
+<text x="850" y="263" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.8" fill="#b7c6d3">PERCEPTION / REPRESENTATION / ACTION</text>
+</svg>
